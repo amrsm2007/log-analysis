@@ -44,4 +44,12 @@ group by day;
 
 and you can use  it with below command 
  select * from requests_day; 
-   
+
+- after creating above below each question can be done with single query
+
+
+ to run the code from shell as below after CD to the file location 
+
+vagrant@vagrant:/vagrant$ python log_analysis.py
+
+
