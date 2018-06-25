@@ -1,6 +1,12 @@
 # log-analysis
 the project is to create a reporting tool that prints out reports (in plain text) based on the data in the database. 
 This reporting tool is a Python program using the psycopg2 module to connect to the database.
+The database includes three tables:
+
+The authors table includes information about the authors of articles.
+The articles table includes the articles themselves.
+The log table includes one entry for each time a user has accessed the site.
+
 below are the questions the reporting tool should answer
 1. What are the most popular three articles of all time? 
 2. Who are the most popular article authors of all time?
